@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:5050/api"
+    baseURL: "https://evangadi-fourm.onrender.com/api"
 });
 
 export default api;
